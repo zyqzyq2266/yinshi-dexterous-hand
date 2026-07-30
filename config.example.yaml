@@ -1,0 +1,10 @@
+serial_port: COM3
+baudrate: 115200
+hand_id: 1
+motion_scale: 0.2
+send_hz: 10
+deadband: 8
+min_angles: [0, 0, 0, 0, 0, 0]
+max_angles: [1000, 1000, 1000, 1000, 1000, 1000]
+invert_axes: [false, false, false, false, false, false]
+open_pose: [1000, 1000, 1000, 1000, 1000, 1000]

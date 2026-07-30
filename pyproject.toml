@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rh56-hand-tracking"
+version = "0.1.0"
+description = "Safe webcam hand tracking for the Inspire Robots RH56DFTP-2L"
+requires-python = ">=3.9"
+dependencies = ["mediapipe>=0.10", "opencv-python>=4.8", "pyserial>=3.5", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+include = ["hand_tracking*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

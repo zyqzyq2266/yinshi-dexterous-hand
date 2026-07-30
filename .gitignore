@@ -1,0 +1,21 @@
+# Python environments and generated caches
+.venv/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local device calibration and Word lock files
+config.yaml
+~$*.docx
+
+# Local analysis and render output
+.analysis_frames/
+docx_render/
+
+# Local archives and installers
+*.rar
+*.zip
+*.7z
+*.exe
+*.pdf
