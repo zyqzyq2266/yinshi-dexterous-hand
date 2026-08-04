@@ -187,9 +187,11 @@ yinshi-dexterous-hand/
 ```
 ## 演示效果
 
-[观看灵巧手手指跟随演示（MP4，约 2 MB）](demo.mp4)
+![灵巧手手指跟随演示](demo.gif)
 
 演示展示摄像头手部关键点识别与 RH56DFTP-2L 左手灵巧手的实时手指跟随效果。
+
+[观看完整 MP4 演示](demo.mp4)
 ## 项目文档
 
 - [项目报告](docs/PROJECT_REPORT.md)：构建过程、问题、解决方法与最终成果。
